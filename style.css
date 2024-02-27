@@ -93,6 +93,9 @@ body {
 @media(max-width: 767px){
   .details{
     flex-direction: column;
+    width: fit-content;
+    margin-inline: auto;
+    align-items: flex-start;
   }
   .details .col:first-child{
     margin-bottom: 20px;
